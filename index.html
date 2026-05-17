@@ -229,9 +229,15 @@ padding:15px 20px;
 <h2>Untuk Clara Tio Mora ❤️</h2>
 </nav>
 
-<audio autoplay loop>
-<source src="https://files.catbox.moe/8n2v8x.mp3" type="audio/mp3">
+<audio id="bgMusic" loop>
+<source src="alamak.mp3" type="audio/mp3">
 </audio>
+
+<script>
+document.addEventListener("click", function () {
+document.getElementById("bgMusic").play();
+}, { once: true });
+</script>
 
 <div class="container">
 
